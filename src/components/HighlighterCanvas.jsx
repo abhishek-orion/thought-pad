@@ -3,7 +3,6 @@ import React, { useRef, useEffect, useState } from 'react';
 function HighlighterCanvas (props)  {
     const DEAFULT_STATE = {
         tool: 'highlighter',
-        size: '5'
     }
 
     const  canvasRef = useRef(null);
