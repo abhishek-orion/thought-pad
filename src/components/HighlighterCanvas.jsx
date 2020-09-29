@@ -18,7 +18,6 @@ function HighlighterCanvas (props)  {
     const context = canvas.getContext("2d")
     context.scale(2,2)
     context.lineCap = "round"
-    context.strokeStyle = props.color
     context.lineWidth = '5'   //highlighter size of 5px
     context.globalAlpha = 0.5;
     contextRef.current = context;
