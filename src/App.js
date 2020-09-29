@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import Container from '@material-ui/core/Container';
 import ThoughtPad from './containers/ThoughtPad'
 
