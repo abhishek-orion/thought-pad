@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 
 function HighlighterCanvas (props)  {
     const DEAFULT_STATE = {
-        tool: 'highlighter',
+        tool: 'highlighter'
     }
 
     const  canvasRef = useRef(null);
